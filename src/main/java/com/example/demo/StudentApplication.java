@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @RequestMapping("/api")
-public class DemoApplication {
+public class StudentApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(StudentApplication.class, args);
     }
 
     @GetMapping("/hello")
